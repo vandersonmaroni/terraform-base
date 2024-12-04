@@ -3,7 +3,7 @@
 ## O que é o terraform-base
 O terraform-base é uma estrutura para preparar a cloud da AWS para testes utilizando o Terraform.
 
-### O que será configurado via terraform com o terraform-base
+## O que será configurado via terraform com o terraform-base
 - Disponibilizará o stete em um bucket do S3
 - Criação de uma VPC
 - Criação de uma VM
@@ -17,7 +17,7 @@ aws_access_key = "SUA CHAVE DE ACESSO DA AWS"
 aws_secret_key = "SUA CHAVE SECRETA DA AWS"
 ```
 
-### Como executar o terraform-base
+## Como executar o terraform-base
 Inicializando o terraform
 ```bash
 terraform init
